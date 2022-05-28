@@ -1,4 +1,4 @@
-/*Topic:-7a
+/*Topic:-7c
 Author-Rudreswar_Pal*/
 #include <stdio.h>
 int main(void)

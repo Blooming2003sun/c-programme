@@ -1,4 +1,4 @@
-/*Topic:-7a
+/*Topic:-7b
 Author-Rudreswar_Pal*/
 #include <stdio.h>
 int main(void)
@@ -19,8 +19,8 @@ int main(void)
     {
         for (int k = 0; k <= n - i; k++)
             printf(" ");
-        count = count - 2*i-1;
-        for (int j = 1; j <= i ; j++)
+        count = count - 2 * i - 1;
+        for (int j = 1; j <= i; j++)
             printf("%d ", count++);
 
         printf("\n");
