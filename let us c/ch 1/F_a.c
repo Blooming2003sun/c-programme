@@ -1,4 +1,4 @@
-/*Topic:-gross slary calculation 08/02/2022
+/*Topic:-gross slary calculation
 Author-Rudreswar_Pal*/
 #include<stdio.h>
 int main(void)
