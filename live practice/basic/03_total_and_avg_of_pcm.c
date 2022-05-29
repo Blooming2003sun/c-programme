@@ -1,6 +1,7 @@
+/*Topic:- total and avarage of subjects
+Author-Rudreswar_Pal*/
 #include<stdio.h>
-
-int main()
+int main(void)
 {
     float math,physics,chemistry,total,avarage;
     printf("enter number of math : \n ");
@@ -10,9 +11,8 @@ int main()
     printf("enter number of chemistry : \n ");
     scanf("%f",&chemistry);
     total=math+physics+chemistry;
-    printf("you got total %f marks \n",total);
+    printf("you got total %.2f marks \n",total);
     avarage=total/3;
-    printf("your avarage is %f \n",avarage);
-
+    printf("your avarage is %.2f \n",avarage);
     return 0;
 }

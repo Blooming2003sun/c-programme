@@ -7,7 +7,7 @@ int main(void)
     printf("enter the number\n");
     scanf("%d", &number);
     n = number;
-    for (; n != 0;)
+    while (n > 0)
     {
         sum += (n % 10);
         n /= 10;

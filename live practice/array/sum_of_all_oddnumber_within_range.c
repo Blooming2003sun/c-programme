@@ -5,7 +5,7 @@ int main(void)
 {
     int upper_range, lower_range, sum = 0, i;
     printf("Enter lower and upper value\n");
-    scanf(" %d%d", &lower_range, &upper_range);
+    scanf("%d%d", &lower_range, &upper_range);
     for (i = lower_range; i <= upper_range; i++)
     {
         if (i % 2 != 0)

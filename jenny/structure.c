@@ -1,7 +1,7 @@
-/*Topic:-introduction to structur
+/*Topic:-introduction to structure
 Author-Rudreswar_Pal*/
 #include<stdio.h>
- struct student
+struct student
 {
     char name[20];
     int roll_no;
@@ -9,7 +9,6 @@ Author-Rudreswar_Pal*/
 };
 int main(void)
 {
-   
    struct student s1[3];        
   for (int i = 0; i < 3; i++)
   {
@@ -20,8 +19,5 @@ int main(void)
   {
      printf("%s %d %f",s1[i].name,s1[i].roll_no,s1[i].marks);
   }
-  
-  
-    
     return 0;
 }
