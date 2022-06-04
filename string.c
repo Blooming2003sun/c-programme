@@ -27,9 +27,9 @@ int main(void)
 {
     int a;
     char str1[]="hello\0hii\0\0\0\0\0";
-    printf("%s\n",str);
-    printf("%d\n",strlen(str));
-    printf("%d\n",sizeof(str));
+    printf("%s\n",str1);
+    printf("%d\n",strlen(str1));
+    printf("%d\n",sizeof(str1));
     return 0;
 }
 
